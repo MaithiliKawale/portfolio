@@ -1,0 +1,434 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* projects */
+.project{
+    background-color: rgb(0, 0, 0);
+    color:  var(--beige);
+    /* padding: 100px; */
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.projects{
+    /* text-align: center; */
+    /* color:  var(--beige); */
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    /* gap: auto; */
+    /* margin: auto; */
+}
+
+
+/* .card{
+    height: 60vh;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+} */
+
+.card-img img{
+    border-radius:20px;
+    height: 300px;
+    padding: 10px;
+    outline: 2px solid white;
+    position: relative;
+    /* width: 400px; */
+} 
+
+.action{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+
+}
+
+.action p{
+    margin: 30px 100px;
+    line-height: 1.5;
+}
+
+.card-img:hover .action{
+    opacity: 1;
+}
+
+.action a{
+    display: inline-block;
+    color: var(--beige);
+    text-decoration: none;
+    border: 1px solid var(--beige);
+    padding: 5px 15px;
+    position: relative;
+}
+
+/* .card .text{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+} */
+
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(142, 27, 63);
+    color: var(--beige);
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+    /* transition: all 0.5s ease; */
+}
+
+/* .download:hover {
+    transform: scaleY(1.1);
+    opacity: 0.9;
+} */
+
+/* contact */
+
+.contact{
+    background: url('./images/stars.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  var(--beige);
+}
+
+.contact-2{
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/* .two-divs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: auto;
+    padding: 70px;
+} */
+
+.contact-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* padding: 50px; */
+
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* padding-right: 100px; */
+
+}
+
+/* .right a:nth-child(1){
+    padding-inline: 13px;
+} */
+
+.socials{
+    border: 2px solid var(--red);
+    border-radius:50%;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    color: var(--red);
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 30px;
+}
+
+
+input{
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+.msg{
+    height: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    /* padding-inline: 10px; */
+    width: 510px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--red);
+    color: var(--beige);
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+
+
+/* footer */
+
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    color: var(--beige);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+.about-img img{
+    display: block;
+}
+
+
+@media only screen and (max-width: 1200px){
+
+    .projects{
+        grid-template-columns: 1fr;
+        
+        row-gap: 50px;
+    }
+
+    .info{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .about-img{
+        display: none;
+    }
+
+    .about-row{
+        margin: 0;
+    }
+
+    .info{
+        justify-content: center;
+    }
+
+    /* .info h1{
+        margin-bottom: 20px;
+    } */
+
+    /* .two-divs{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    } */
+
+    .right{
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .contact-form{
+        width: 80%;
+        padding: 0;
+        /* margin-bottom: 30px; */
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .contact{
+        padding: 0;
+        /* margin: 0; */
+    }
+
+    .contact-2{
+        width: 90%;
+        margin: auto;
+        /* padding: 0; */
+        /* margin: 0; */
+        
+    }
+
+    .about{
+        padding: 30px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 750px){
+    .projects{        
+        row-gap: 30px;
+    }
+
+    .card-img img{
+        width: 400px;
+        height: auto;
+    }
+
+    .right{
+        width: 65%;
+    }
+
+    input{
+        width: 350px;
+    }
+
+    .btn{
+        width: 350px;
+    }
+    
+    .msg{
+        height: 120px;
+    }
+
+    .about{
+        padding: 10px;
+    }    
+
+    .fa-3x{
+        font-size: 20px;
+    }
+
+    .socials{
+        width: 50px;
+        height: 50px;
+    }
+
+    .download{
+        font-size: 18px;
+    }
+
+    .action h3{
+        font-size: 20px;
+    }
+
+    .action p{
+        margin: 10px 50px;
+        line-height: 1.2;
+
+        font-size: 12px;
+    }
+
+    .brand-title{
+        margin: 0 3rem;
+
+    }
+
+}
+
+
+
+@media(max-width: 500px){
+    .flex{
+        flex-direction: column;
+    }
+
+    .right{
+        width: 80%;
+        padding: 0;
+    }
+
+
+    input{
+        width: 300px;
+    }
+
+    .btn{
+        width: 300px;
+    }
+
+    .about{
+        padding: 10px;
+    }
+
+    .about p{
+        font-size: 17px;
+    }
+    
+    .card-img img{
+        width: 300px;
+        height: auto;
+    }
+
+    .brand-title{
+        margin: 0 1.5rem;
+
+    }
+    
+}
+
+
+
