@@ -1,0 +1,48 @@
+.project{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    height: 60vh;
+    width: 80vw;
+    border-radius:20px;
+    outline: 2px solid white;
+    margin: 25px auto;
+}
+
+
+.card-img {
+    border-radius: 10px;
+    height: 80%;
+    width: 60%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+} 
+
+@media only screen and (max-width: 1000px){
+    .flex{
+        flex-direction: column;
+    }
+    .project{
+        padding: 20px;
+    }
+
+    .card-img{
+        width: 80%;
+        height: 100%;
+
+    }
+
+    .tech{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+    .card-img{
+        height: 60%;
+        width: 90%;
+    }
+    
+}
+
