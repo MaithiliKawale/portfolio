@@ -1,11 +1,11 @@
 import React from 'react';
-import html from '../assets/imgs/html.svg'; 
-import css from '../assets/imgs/css.svg';
+import html from '../assets/imgs/html1.svg'; 
+import css from '../assets/imgs/css1.svg';
 import bootstrap from '../assets/imgs/bootstrap.png'; 
-import js from '../assets/imgs/javascript.svg'; 
+import js from '../assets/imgs/js.svg'; 
 import react from '../assets/imgs/react.svg'; 
-import scss from '../assets/imgs/scss.svg'; 
-import tailwind from '../assets/imgs/tailwind.svg'; 
+import scss from '../assets/imgs/scss1.svg'; 
+import tailwind from '../assets/imgs/tail.svg'; 
 
 const About = () => {
   return (
