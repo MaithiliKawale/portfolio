@@ -14,7 +14,7 @@ const About = () => {
       <div>
         <h1 className="text-5xl pt-10 flex items-center justify-center">A dedicated Front-end Developer based in Nagpur, India</h1>
         <p className="pt-10 text-left rtl:text-right ">
-          As a Junior Front-End Developer, I possess an impressive arsenal
+          As a Front-End Developer, I possess an impressive arsenal
           of skills in HTML, CSS, JavaScript, Tailwind CSS, and SCSS along with a Bachelor's degree in Computer Science and Engineering. I excel in
           designing and maintaining responsive websites that offer a smooth
           user experience. My expertise lies in crafting dynamic, engaging

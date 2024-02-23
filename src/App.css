@@ -288,6 +288,9 @@ footer{
     .flex{
         flex-direction: column;
     }
+    .resume{
+        display: flex; flex-direction: row;
+    }
 
     .right{
         width: 80%;

@@ -12,7 +12,7 @@ const Landing = () => {
       backgroundImage: `url(${skies})`}} 
       
       className='bg-contain bg-center bg-cover h-screen w-screen bg-no-repeat '>
-      <div className="flex items-start justify-between p-8">
+      <div className="flex items-center md-items-start resume justify-between p-8">
       <div className='text-2xl'>
       <h1 className='almendra-display-regular'>MK
       </h1>
