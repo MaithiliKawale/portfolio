@@ -1,11 +1,11 @@
 import React from 'react';
-import html from '../assets/imgs/html1.svg'; 
-import css from '../assets/imgs/css.png';
+import html from '../assets/imgs/html52.png'; 
+import css from '../assets/imgs/css4.png';
 import bootstrap from '../assets/imgs/bootstrap.png'; 
 import js from '../assets/imgs/js1.png'; 
-import react from '../assets/imgs/react.svg'; 
+import react from '../assets/imgs/react1.png'; 
 import scss from '../assets/imgs/sass.png'; 
-import tailwind from '../assets/imgs/tail.svg'; 
+import tailwind from '../assets/imgs/tailw.png'; 
 
 const About = () => {
   return (
@@ -52,7 +52,7 @@ const About = () => {
         <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">Tailwind CSS</h4>
           <div style={{  backgroundImage: `url(${tailwind})`}} 
-          className='w-20 h-20 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-14 bg-contain bg-center bg-cover bg-no-repeat'
          ></div>         
          </div>
         <div className="card flex items-center justify-center flex-col p-10">

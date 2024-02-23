@@ -3,10 +3,10 @@ import gpt from '../assets/imgs/projects/gpt.png';
 import pomo from '../assets/imgs/projects/pomo.png';
 import nike from '../assets/imgs/projects/nike.png';
 import apple from '../assets/imgs/projects/apple.png';
-import tailwind from '../assets/imgs/tail.svg';
-import react from '../assets/imgs/react.svg';
+import tailwind from '../assets/imgs/tailw.png';
+import react from '../assets/imgs/react1.png';
 import bt from "../assets/imgs/bootstrap.png"
-import css from '../assets/imgs/css1.svg';
+import css from '../assets/imgs/css4.png';
 import '../App.css';
 import './Projects.css';
 
@@ -80,7 +80,7 @@ const Projects = () => {
             className='w-14 h-14 bg-contain bg-center bg-cover bg-no-repeat m-3'
           ></div>
           <div style={{  backgroundImage: `url(${tailwind})`}} 
-            className='w-14 h-14 bg-contain bg-center bg-cover bg-no-repeat m-3'
+            className='w-16 h-12 bg-contain bg-center bg-cover bg-no-repeat m-3'
           ></div>
             </div>
             </div> 

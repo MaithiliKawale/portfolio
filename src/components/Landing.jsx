@@ -19,14 +19,14 @@ const Landing = () => {
   </div>
 
   <a href = "../assets/Resume-Maithili_Kawale.pdf"
-  Download = "resume">
+  Download = {resume}>
   <button className="launch">Download Resume</button>
   </a>
       </div>
       <div className=" mt-10 w-screen flex items-center justify-center place-items-center">
       <div className='text-white text-bold text-3xl text-center '>     
         <h1 className="text-7xl text-bold drop-shadow-[2px_2px_2px_rgba(255,255,255,1)]">Maithili Kawale</h1> 
-        <p className="text-black text-4xl pt-2 pb-2">Front-End Developer</p>
+        <p className="text-black font-semibold text-4xl pt-2 pb-2">Front-End Developer</p>
         
         <p className="text-black text-6xl pt-10">Scroll</p>
         <i >
