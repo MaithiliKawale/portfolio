@@ -1,10 +1,10 @@
 import React from 'react';
 import html from '../assets/imgs/html1.svg'; 
-import css from '../assets/imgs/css1.svg';
+import css from '../assets/imgs/css.png';
 import bootstrap from '../assets/imgs/bootstrap.png'; 
-import js from '../assets/imgs/js.svg'; 
+import js from '../assets/imgs/js1.png'; 
 import react from '../assets/imgs/react.svg'; 
-import scss from '../assets/imgs/scss1.svg'; 
+import scss from '../assets/imgs/sass.png'; 
 import tailwind from '../assets/imgs/tail.svg'; 
 
 const About = () => {
