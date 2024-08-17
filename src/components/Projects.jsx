@@ -16,7 +16,7 @@ const Projects = () => {
     className="flex items-center justify-center h-auto w-full bg-black flex-col"
     >
       <h1 className="text-7xl text-bold mb-20 ">PROJECTS</h1>
-      <a href="https://apple-mart-two.vercel.app" target="_blank" className="unstyled">
+      <a href="https://hospital-appointment-system-jo00.onrender.com/" target="_blank" className="unstyled">
       <div className="project flex items-center justify-center">
         <img style={{ backgroundImage: `url(${hospital})`}}
         className='card-img' loading='lazy'>
@@ -108,7 +108,7 @@ const Projects = () => {
 
 
 
-    <a href="https://hospital-appointment-system-jo00.onrender.com/" target="_blank" className="unstyled">
+    <a href="https://gpt3-landing-page-nine.vercel.app/" target="_blank" className="unstyled">
         <div className="project flex items-center justify-center">
         <div style={{ backgroundImage: `url(${gpt})`}}
         className='card-img'>
