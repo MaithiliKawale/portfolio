@@ -10,7 +10,6 @@
     --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 }
 
-
 .great-vibes-regular {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
@@ -284,7 +283,7 @@ footer{
 
 
 
-@media(max-width: 500px){
+@media(max-width: 400px){
     .flex{
         flex-direction: column;
     }
@@ -299,11 +298,11 @@ footer{
 
 
     input{
-        width: 300px;
+        width: 200px;
     }
 
     .btn{
-        width: 300px;
+        width: 200px;
     }
 
     .about{

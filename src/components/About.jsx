@@ -6,22 +6,18 @@ import js from '../assets/imgs/js1.png';
 import react from '../assets/imgs/react1.png'; 
 import scss from '../assets/imgs/sass.png'; 
 import tailwind from '../assets/imgs/tailw.png'; 
+import node from '../assets/imgs/nodeJS.png'; 
+import exp from '../assets/imgs/express.png'; 
+import mongo from '../assets/imgs/mongoDB.png'; 
 
 const About = () => {
   return (
-    <div className='bg-black p-20 flex h-full w-full flex-col items-center justify-center'>      
+    <div className='bg-black p-10 flex h-full w-full flex-col items-center justify-center'>      
     <h1 className="text-7xl text-bold gradient__text">ABOUT ME</h1>
-      <div>
-        <h1 className="text-5xl pt-10 flex items-center justify-center">A dedicated Front-end Developer based in Nagpur, India</h1>
-        <p className="pt-10 text-left rtl:text-right ">
-          As a Front-End Developer, I possess an impressive arsenal
-          of skills in HTML, CSS, JavaScript, Tailwind CSS, and SCSS along with a Bachelor's degree in Computer Science and Engineering. I excel in
-          designing and maintaining responsive websites that offer a smooth
-          user experience. My expertise lies in crafting dynamic, engaging
-          interfaces through writing clean and optimized code and utilizing
-          cutting-edge development tools and techniques. I am also a team
-          player who thrives in collaborating with cross-functional teams to
-          produce outstanding web applications.
+      <div className="flex items-center justify-center flex-col">
+        <h1 className="text-4xl pt-10">A dedicated Full Stack Developer based in Bangalore, India</h1>
+        <p className="pt-10 text-xl m-auto px-auto flex items-center justify-center">
+          Hi, I'm Maithili Kawale, A creative Web Developer with hands-on experience in React, NodeJS, Express, MongoDB who loves learning and developing intuitive applications, that will enable the customers to have a good experience interacting with it.
         </p>
       </div>
 
@@ -32,45 +28,63 @@ const About = () => {
         <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">HTML</h4>
           <div style={{  backgroundImage: `url(${html})`}} 
-          className='w-20 h-20 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
          ></div>
         </div>
 
         <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">CSS</h4>
             <div style={{  backgroundImage: `url(${css})`}} 
-          className='w-20 h-20 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
          ></div>       
           </div>
 
             <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">JavaScript</h4>
             <div style={{  backgroundImage: `url(${js})`}} 
-          className='w-20 h-20 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
          ></div>
          </div>
         <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">Tailwind CSS</h4>
           <div style={{  backgroundImage: `url(${tailwind})`}} 
-          className='w-20 h-14 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-14 bg-center bg-cover bg-no-repeat'
          ></div>         
          </div>
         <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">Bootstrap</h4>
           <div style={{  backgroundImage: `url(${bootstrap})`}} 
-          className='w-20 h-20 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
          ></div> 
         </div>
         <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">ReactJS</h4>
           <div style={{  backgroundImage: `url(${react})`}} 
-          className='w-20 h-20 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
          ></div> 
         </div>
         <div className="card flex items-center justify-center flex-col p-10">
           <h4 className="p-3">SCSS</h4>
           <div style={{  backgroundImage: `url(${scss})`}} 
-          className='w-20 h-20 bg-contain bg-center bg-cover bg-no-repeat'
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
+         ></div> 
+        </div>
+        <div className="card flex items-center justify-center flex-col p-10">
+          <h4 className="p-3">NodeJS</h4>
+          <div style={{  backgroundImage: `url(${node})`}} 
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
+         ></div> 
+        </div>
+        <div className="card flex items-center justify-center flex-col p-10">
+          <h4 className="p-3">ExpressJS</h4>
+          <div style={{  backgroundImage: `url(${exp})`}} 
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
+         ></div> 
+        </div>
+        <div className="card flex items-center justify-center flex-col p-10">
+          <h4 className="p-3">MongoDB</h4>
+          <div style={{  backgroundImage: `url(${mongo})`}} 
+          className='w-20 h-20 bg-center bg-cover bg-no-repeat'
          ></div> 
         </div>
       </div>
